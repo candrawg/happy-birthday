@@ -126,7 +126,7 @@ body {
   position: absolute;
   width: 80px;
   top: -45px;
-  left: 20rem;
+  left: 40%;
   transform: rotate(-30deg);
 }
 
@@ -237,29 +237,36 @@ body {
   margin-top : 1rem;
 }
 
+audio {
+  width: 80%;
+  border-radius: 10px;
+  margin-left: 10%;
+  margin-top: 1.5rem;
+  z-index: 99;
+}
 
 /* Media Queries */
 @media screen and (max-height: 1000px) {
   .six .hat {
-    left: 30%;
+    left: 29%;
   }
 }
 
 @media screen and (max-height: 800px) {
   .six .hat {
-    left: 27%;
+    left: 30%;
   }
 }
 
 @media screen and (max-height: 700px) {
   .six .hat {
-    left: 22%;
+    left: 24%;
   }
 }
 
 @media screen and (max-height: 850px) and (max-width: 450px) {
   .six .hat {
-    left: 22%;
+    left: 24%;
   }
 }
 
