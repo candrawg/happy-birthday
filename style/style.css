@@ -248,7 +248,7 @@ audio {
 /* Media Queries */
 @media screen and (max-height: 1000px) {
   .six .hat {
-    left: 29%;
+    left: 33%;
   }
 }
 
@@ -264,9 +264,9 @@ audio {
   }
 }
 
-@media screen and (max-height: 850px) and (max-width: 450px) {
+@media screen and (max-height: 850px) {
   .six .hat {
-    left: 24%;
+    left: 35%;
   }
 }
 
@@ -295,6 +295,7 @@ audio {
   .six .hat {
     width: 50px;
     top: -10px;
+    left: 22%;
   }
 
   .wish-hbd {
